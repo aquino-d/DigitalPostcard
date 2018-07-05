@@ -1,0 +1,88 @@
+/* *Selects entire HTML DOC */
+* {
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+}
+body{
+    background-color: black;
+}
+
+/* Positions postcard in the center of page */
+div.postCard{
+    width: 520px;
+    height: 370px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 20px 20px;
+    font-size: 125%;
+    background-color: white;
+}
+h1{
+    text-align:;
+}
+/* Header includes "My Postcard" and Logo image */
+header{
+    width: 100%;
+    position: relative;
+    background-image: url(4%20Geeks%20Academy%20logo.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    height:25%;
+    padding-top: 1%;
+    font-size: 80%;
+    margin: 1px;
+}
+/* Position & size logo */
+.logo{
+    
+    height: 10%;
+    width: 10%;
+}
+
+/* Text p1 and p2 */
+.coloumn1{
+    float: left;
+    width: 50%;
+    font-size: 100%;
+
+}
+
+/* Form Style includes input element */
+.coloumn2{
+    float: right;
+    width: 50%;
+    margin-top: 8px;
+}
+input{
+    width: 100%;
+    margin: 5px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 100%;
+    color: grey;
+}
+
+/* Footer includes button */
+.footer{
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: inline-block;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    background-color: lightgrey;
+    padding: 1px 5px 3px;
+    border: none;
+    border-bottom: 1px solid grey;
+
+}
+
+
+
