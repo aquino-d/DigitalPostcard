@@ -6,7 +6,6 @@
 body{
     background-color: black;
 }
-
 /* Positions postcard in the center of page */
 div.postCard{
     width: 520px;
@@ -41,15 +40,12 @@ header{
     height: 10%;
     width: 10%;
 }
-
 /* Text p1 and p2 */
 .coloumn1{
     float: left;
     width: 50%;
     font-size: 100%;
-
 }
-
 /* Form Style includes input element */
 .coloumn2{
     float: right;
@@ -65,7 +61,6 @@ input{
     font-size: 100%;
     color: grey;
 }
-
 /* Footer includes button */
 .footer{
     width: 100%;
@@ -81,8 +76,4 @@ input{
     padding: 1px 5px 3px;
     border: none;
     border-bottom: 1px solid grey;
-
 }
-
-
-
